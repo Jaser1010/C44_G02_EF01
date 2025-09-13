@@ -15,6 +15,7 @@ namespace C44_G02_EF01.DatabaseContext
         }
 
 
+
         public DbSet<Aircraft_DA> Aircrafts_DA { get; set; }
         public DbSet<Aircraft_Route_DA> Aircraft_Routes_DA { get; set; }
         public DbSet<Airline_DA> Airlines_DA { get; set; }
